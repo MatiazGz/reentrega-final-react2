@@ -1,0 +1,10 @@
+.ProductView{
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.ProductView img{
+    display: block;
+    max-width: 100%;
+}
