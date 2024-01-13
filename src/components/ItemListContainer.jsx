@@ -1,5 +1,5 @@
 import "./ItemListContainer.css";
-import { AddToCartIcon, RemoveFromCartIcon } from "./Icons.jsx";
+import { AddToCartIcon, RemoveFromCartIcon } from "./CartWidgets.jsx";
 import { useCart } from "../hooks/useCart.js";
 import { Link } from "react-router-dom";
 

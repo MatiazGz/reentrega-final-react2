@@ -68,24 +68,41 @@ export function ClearCartIcon() {
   );
 }
 
-export function CartIcon() {
+export function CartIcon({ itemCount }) {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      strokeWidth="1"
-      stroke="currentColor"
-      fill="none"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-      <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-      <path d="M17 17h-11v-14h-2" />
-      <path d="M6 5l14 1l-1 7h-13" />
-    </svg>
+    <div style={{ position: "relative" }}>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        strokeWidth="1"
+        stroke="currentColor"
+        fill="none"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+        <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+        <path d="M17 17h-11v-14h-2" />
+        <path d="M6 5l14 1l-1 7h-13" />
+      </svg>
+      {itemCount > 0 && (
+        <div
+          style={{
+            position: "absolute",
+            top: "1",
+            right: "0",
+            background: "red",
+            borderRadius: "50%",
+            padding: "0.2rem 0.5rem",
+            color: "white",
+          }}
+        >
+          {itemCount}
+        </div>
+      )}
+    </div>
   );
 }

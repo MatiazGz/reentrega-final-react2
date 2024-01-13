@@ -1,7 +1,8 @@
+import React, { useState, useEffect } from "react";
 import "./Cart.css";
 
 import { useId } from "react";
-import { CartIcon, ClearCartIcon } from "./Icons.jsx";
+import { CartIcon, ClearCartIcon } from "./CartWidgets.jsx";
 import { useCart } from "../hooks/useCart.js";
 import { Link } from "react-router-dom";
 
@@ -37,6 +38,14 @@ export function Cart() {
   const cartCheckboxId = useId();
   const { cart, clearCart, addToCart, removeFromCart, removeOneFromCart } =
     useCart();
+  const [cartItemCount, setCartItemCount] = useState(0);
+  useEffect(() => {
+    const totalItems = cart.reduce((total, product) => {
+      return total + product.quantity;
+    }, 0);
+    setCartItemCount(totalItems);
+  }, [cart]);
+
   const getTotal = () => {
     return cart.reduce((total, product) => {
       return total + product.price * product.quantity;
@@ -46,7 +55,7 @@ export function Cart() {
   return (
     <>
       <label className="cart-button" htmlFor={cartCheckboxId}>
-        <CartIcon />
+        <CartIcon itemCount={cartItemCount} />
       </label>
       <input id={cartCheckboxId} type="checkbox" hidden />
 
