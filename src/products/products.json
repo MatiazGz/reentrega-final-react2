@@ -1,299 +1,128 @@
 {
-    "products":[
-       {
-          "id":5,
-          "title":"MacBook Pro",
-          "description":"MacBook Pro 2021 with mini-LED display may launch between September, November",
-          "price":1749,
-          "discountPercentage":11.02,
-          "rating":4.57,
-          "stock":83,
-          "brand":"Apple",
-          "category":"laptops",
-          "thumbnail":"https://i.dummyjson.com/data/products/6/thumbnail.png",
-          "images":[
-             "https://i.dummyjson.com/data/products/6/1.png",
-             "https://i.dummyjson.com/data/products/6/2.jpg",
-             "https://i.dummyjson.com/data/products/6/3.png",
-             "https://i.dummyjson.com/data/products/6/4.jpg"
-          ]
-       },
-       {
-          "id":2,
-          "title":"iPhone X",
-          "description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price":899,
-          "discountPercentage":17.94,
-          "rating":4.44,
-          "stock":34,
-          "brand":"Apple",
-          "category":"smartphones",
-          "thumbnail":"https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-          "images":[
-             "https://i.dummyjson.com/data/products/2/1.jpg",
-             "https://i.dummyjson.com/data/products/2/2.jpg",
-             "https://i.dummyjson.com/data/products/2/3.jpg",
-             "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ]
-       },
-       {
-          "id":3,
-          "title":"Samsung Universe 9",
-          "description":"Samsung's new variant which goes beyond Galaxy to the Universe",
-          "price":1249,
-          "discountPercentage":15.46,
-          "rating":4.09,
-          "stock":36,
-          "brand":"Samsung",
-          "category":"smartphones",
-          "thumbnail":"https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-          "images":[
-             "https://i.dummyjson.com/data/products/3/1.jpg"
-          ]
-       },
-       {
-          "id":4,
-          "title":"Huawei P30",
-          "description":"Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
-          "price":499,
-          "discountPercentage":10.58,
-          "rating":4.09,
-          "stock":32,
-          "brand":"Huawei",
-          "category":"smartphones",
-          "thumbnail":"https://i.dummyjson.com/data/products/5/thumbnail.jpg",
-          "images":[
-             "https://i.dummyjson.com/data/products/5/1.jpg",
-             "https://i.dummyjson.com/data/products/5/2.jpg",
-             "https://i.dummyjson.com/data/products/5/3.jpg"
-          ]
-       },
-       {
-          "id":6,
-          "title":"Samsung Galaxy Book",
-          "description":"Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
-          "price":1499,
-          "discountPercentage":4.15,
-          "rating":4.25,
-          "stock":50,
-          "brand":"Samsung",
-          "category":"laptops",
-          "thumbnail":"https://i.dummyjson.com/data/products/7/thumbnail.jpg",
-          "images":[
-             "https://i.dummyjson.com/data/products/7/1.jpg",
-             "https://i.dummyjson.com/data/products/7/2.jpg",
-             "https://i.dummyjson.com/data/products/7/3.jpg",
-             "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
-          ]
-       },
-       {
-          "id":1,
-          "title":"iPhone 9",
-          "description":"An apple mobile which is nothing like apple",
-          "price":549,
-          "discountPercentage":12.96,
-          "rating":4.69,
-          "stock":94,
-          "brand":"Apple",
-          "category":"smartphones",
-          "thumbnail":"https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images":[
-             "https://i.dummyjson.com/data/products/1/1.jpg",
-             "https://i.dummyjson.com/data/products/1/2.jpg",
-             "https://i.dummyjson.com/data/products/1/3.jpg",
-             "https://i.dummyjson.com/data/products/1/4.jpg",
-             "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ]
-       },
-       {
-          "id":7,
-          "title":"Microsoft Surface Laptop 4",
-          "description":"Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-          "price":1499,
-          "discountPercentage":10.23,
-          "rating":4.43,
-          "stock":68,
-          "brand":"Microsoft Surface",
-          "category":"laptops",
-          "thumbnail":"https://i.dummyjson.com/data/products/8/thumbnail.jpg",
-          "images":[
-             "https://i.dummyjson.com/data/products/8/1.jpg",
-             "https://i.dummyjson.com/data/products/8/2.jpg",
-             "https://i.dummyjson.com/data/products/8/3.jpg",
-             "https://i.dummyjson.com/data/products/8/4.jpg",
-             "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
-          ]
-       },
-       {
-          "id":8,
-          "title":"Infinix INBOOK",
-          "description":"Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
-          "price":1099,
-          "discountPercentage":11.83,
-          "rating":4.54,
-          "stock":96,
-          "brand":"Infinix",
-          "category":"laptops",
-          "thumbnail":"https://i.dummyjson.com/data/products/9/thumbnail.jpg",
-          "images":[
-             "https://i.dummyjson.com/data/products/9/1.jpg",
-             "https://i.dummyjson.com/data/products/9/2.png",
-             "https://i.dummyjson.com/data/products/9/3.png",
-             "https://i.dummyjson.com/data/products/9/4.jpg",
-             "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
-          ]
-       },
-       {
-          "id":9,
-          "title":"HP Pavilion 15-DK1056WM",
-          "description":"HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
-          "price":1099,
-          "discountPercentage":6.18,
-          "rating":4.43,
-          "stock":89,
-          "brand":"HP Pavilion",
-          "category":"laptops",
-          "thumbnail":"https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
-          "images":[
-             "https://i.dummyjson.com/data/products/10/1.jpg",
-             "https://i.dummyjson.com/data/products/10/2.jpg",
-             "https://i.dummyjson.com/data/products/10/3.jpg",
-             "https://i.dummyjson.com/data/products/10/thumbnail.jpeg"
-          ]
-       },
-       {
-          "id":10,
-          "title":"perfume Oil",
-          "description":"Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
-          "price":13,
-          "discountPercentage":8.4,
-          "rating":4.26,
-          "stock":65,
-          "brand":"Impression of Acqua Di Gio",
-          "category":"fragrances",
-          "thumbnail":"https://i.dummyjson.com/data/products/11/thumbnail.jpg",
-          "images":[
-             "https://i.dummyjson.com/data/products/11/1.jpg",
-             "https://i.dummyjson.com/data/products/11/2.jpg",
-             "https://i.dummyjson.com/data/products/11/3.jpg",
-             "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
-          ]
-       },
-       {
-          "id":11,
-          "title":"Brown Perfume",
-          "description":"Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
-          "price":40,
-          "discountPercentage":15.66,
-          "rating":4,
-          "stock":52,
-          "brand":"Royal_Mirage",
-          "category":"fragrances",
-          "thumbnail":"https://i.dummyjson.com/data/products/12/thumbnail.jpg",
-          "images":[
-             "https://i.dummyjson.com/data/products/12/1.jpg",
-             "https://i.dummyjson.com/data/products/12/2.jpg",
-             "https://i.dummyjson.com/data/products/12/3.png",
-             "https://i.dummyjson.com/data/products/12/4.jpg",
-             "https://i.dummyjson.com/data/products/12/thumbnail.jpg"
-          ]
-       },
-       {
-          "id":12,
-          "title":"Fog Scent Xpressio Perfume",
-          "description":"Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
-          "price":13,
-          "discountPercentage":8.14,
-          "rating":4.59,
-          "stock":61,
-          "brand":"Fog Scent Xpressio",
-          "category":"fragrances",
-          "thumbnail":"https://i.dummyjson.com/data/products/13/thumbnail.webp",
-          "images":[
-             "https://i.dummyjson.com/data/products/13/1.jpg",
-             "https://i.dummyjson.com/data/products/13/2.png",
-             "https://i.dummyjson.com/data/products/13/3.jpg",
-             "https://i.dummyjson.com/data/products/13/4.jpg",
-             "https://i.dummyjson.com/data/products/13/thumbnail.webp"
-          ]
-       },
-       {
-          "id":13,
-          "title":"Non-Alcoholic Concentrated Perfume Oil",
-          "description":"Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
-          "price":120,
-          "discountPercentage":15.6,
-          "rating":4.21,
-          "stock":114,
-          "brand":"Al Munakh",
-          "category":"fragrances",
-          "thumbnail":"https://i.dummyjson.com/data/products/14/thumbnail.jpg",
-          "images":[
-             "https://i.dummyjson.com/data/products/14/1.jpg",
-             "https://i.dummyjson.com/data/products/14/2.jpg",
-             "https://i.dummyjson.com/data/products/14/3.jpg",
-             "https://i.dummyjson.com/data/products/14/thumbnail.jpg"
-          ]
-       },
-       {
-          "id":14,
-          "title":"Eau De Perfume Spray",
-          "description":"Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
-          "price":30,
-          "discountPercentage":10.99,
-          "rating":4.7,
-          "stock":105,
-          "brand":"Lord - Al-Rehab",
-          "category":"fragrances",
-          "thumbnail":"https://i.dummyjson.com/data/products/15/thumbnail.jpg",
-          "images":[
-             "https://i.dummyjson.com/data/products/15/1.jpg",
-             "https://i.dummyjson.com/data/products/15/2.jpg",
-             "https://i.dummyjson.com/data/products/15/3.jpg",
-             "https://i.dummyjson.com/data/products/15/4.jpg",
-             "https://i.dummyjson.com/data/products/15/thumbnail.jpg"
-          ]
-       },
-       {
-          "id":15,
-          "title":"3D Embellishment Art Lamp",
-          "description":"3D led lamp sticker Wall sticker 3d wall art light on/off button  cell operated (included)",
-          "price":20,
-          "discountPercentage":16.49,
-          "rating":4.82,
-          "stock":54,
-          "brand":"LED Lights",
-          "category":"home-decoration",
-          "thumbnail":"https://i.dummyjson.com/data/products/28/thumbnail.jpg",
-          "images":[
-             "https://i.dummyjson.com/data/products/28/1.jpg",
-             "https://i.dummyjson.com/data/products/28/2.jpg",
-             "https://i.dummyjson.com/data/products/28/3.png",
-             "https://i.dummyjson.com/data/products/28/4.jpg",
-             "https://i.dummyjson.com/data/products/28/thumbnail.jpg"
-          ]
-       },
-       {
-          "id":16,
-          "title":"Handcraft Chinese style",
-          "description":"Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate",
-          "price":60,
-          "discountPercentage":15.34,
-          "rating":4.44,
-          "stock":7,
-          "brand":"luxury palace",
-          "category":"home-decoration",
-          "thumbnail":"https://i.dummyjson.com/data/products/29/thumbnail.webp",
-          "images":[
-             "https://i.dummyjson.com/data/products/29/1.jpg",
-             "https://i.dummyjson.com/data/products/29/2.jpg",
-             "https://i.dummyjson.com/data/products/29/3.webp",
-             "https://i.dummyjson.com/data/products/29/4.webp",
-             "https://i.dummyjson.com/data/products/29/thumbnail.webp"
-          ]
-       }
-    ],
-    "total":100,
-    "skip":0,
-    "limit":30
-}
+   "products": [
+     {
+       "id": 1,
+       "title": "MacBook Pro",
+       "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+       "price": 1749,
+       "discountPercentage": 11.02,
+       "rating": 4.57,
+       "stock": 83,
+       "brand": "Apple",
+       "category": "laptops",
+       "thumbnail": "https://www.mac4sale.co.uk/media/catalog/product/cache/f27f79ef30603c2c51e5ba294d8fd900/m/a/macbook_pro__late-2008_silve-min_16.jpg"
+     },
+     {
+       "id": 2,
+       "title": "iPhone X",
+       "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip",
+       "price": 899,
+       "discountPercentage": 17.94,
+       "rating": 4.44,
+       "stock": 34,
+       "brand": "Apple",
+       "category": "smartphones",
+       "thumbnail": "https://cellbuddy.in/buddy/wp-content/uploads/2022/09/X-silver.png"
+     },
+     {
+       "id": 3,
+       "title": "Samsung Universe 9",
+       "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+       "price": 1249,
+       "discountPercentage": 15.46,
+       "rating": 4.09,
+       "stock": 36,
+       "brand": "Samsung",
+       "category": "smartphones",
+       "thumbnail": "data:image/jpeg;base64,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"
+     },
+     {
+       "id": 4,
+       "title": "Huawei P30",
+       "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+       "price": 499,
+       "discountPercentage": 10.58,
+       "rating": 4.09,
+       "stock": 32,
+       "brand": "Huawei",
+       "category": "smartphones",
+       "thumbnail": "https://i.blogs.es/3e80b5/huawei-30-pro/840_560.jpg"
+     },
+     {
+       "id": 5,
+       "title": "Samsung Galaxy Book",
+       "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+       "price": 1499,
+       "discountPercentage": 4.15,
+       "rating": 4.25,
+       "stock": 50,
+       "brand": "Samsung",
+       "category": "laptops",
+       "thumbnail": "https://assets.quzo.co.uk/site/catalogue/full/2022/02/91818251_9218991898.jpeg"
+     },
+     {
+       "id": 6,
+       "title": "iPhone 9",
+       "description": "An apple mobile which is nothing like apple",
+       "price": 549,
+       "discountPercentage": 12.96,
+       "rating": 4.69,
+       "stock": 94,
+       "brand": "Apple",
+       "category": "smartphones",
+       "thumbnail": "https://i2-prod.mirror.co.uk/tech/article21800988.ece/ALTERNATES/s615b/0_JS209968575.jpg"
+     },
+     {
+       "id": 7,
+       "title": "Microsoft Surface Laptop 4",
+       "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+       "price": 1499,
+       "discountPercentage": 10.23,
+       "rating": 4.43,
+       "stock": 68,
+       "brand": "Microsoft Surface",
+       "category": "laptops",
+       "thumbnail": "https://assets.hardwarezone.com/img/2021/05/Surface_Laptop_4_Thumbnail.jpg"
+     },
+     {
+       "id": 8,
+       "title": "Infinix INBOOK",
+       "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+       "price": 1099,
+       "discountPercentage": 11.83,
+       "rating": 4.54,
+       "stock": 96,
+       "brand": "Infinix",
+       "category": "laptops",
+       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmB4C1L5DpDQqIo9HalSISuwL1JFQfj9rqeZj-d1pxfisFGW5WYS-5TrHVp6WFJOHj70&usqp=CAU"
+     },
+     {
+       "id": 9,
+       "title": "HP Pavilion 15-DK1056WM",
+       "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+       "price": 1099,
+       "discountPercentage": 6.18,
+       "rating": 4.43,
+       "stock": 89,
+       "brand": "HP Pavilion",
+       "category": "laptops",
+       "thumbnail": "https://m.media-amazon.com/images/I/611Fwb1gggS._AC_UF894,1000_QL80_.jpg"
+     },
+     {
+       "id": 10,
+       "title": "Iphone 15",
+       "description": "The iPhone 15 features a 6.1-inch (155 mm) display with Super Retina XDR OLED technology at a resolution of 2556×1179 pixels and a pixel density of about 460 PPI with a refresh rate of 60 Hz.",
+       "price": 1099,
+       "discountPercentage": 8.4,
+       "rating": 4.26,
+       "stock": 65,
+       "brand": "Apple",
+       "category": "smartphones",
+       "thumbnail": "https://tienda.antel.com.uy/razuna/assets/1/E6890FAAC3704676974DDF2CC1C5170C/img/944F6B868AF94B04B6200F61FC96BEE6/apple-iphone15-pro-max-1_944F6B868AF94B04B6200F61FC96BEE6.jpg"
+     }
+   ],
+   "total": 100,
+   "skip": 0,
+   "limit": 30
+ }
+ 
