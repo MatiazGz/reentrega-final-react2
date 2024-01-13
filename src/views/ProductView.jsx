@@ -1,9 +1,9 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+import React from "react";
+import { useParams } from "react-router-dom";
 
 export function ProductDetail({ products }) {
   const { id } = useParams();
-  const product = products.find(product => product.id === parseInt(id)); // Encuentra el producto por id
+  const product = products.find((product) => product.id === parseInt(id)); // Encuentra el producto por ID
 
   if (!product) {
     return <div>Producto no encontrado</div>;
@@ -18,4 +18,3 @@ export function ProductDetail({ products }) {
     </div>
   );
 }
-

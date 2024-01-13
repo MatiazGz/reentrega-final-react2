@@ -3,6 +3,7 @@ import './Cart.css'
 import { useId } from 'react'
 import { CartIcon, ClearCartIcon } from './Icons.jsx'
 import { useCart } from '../hooks/useCart.js'
+import { Link } from 'react-router-dom'
 
 function CartItem ({ thumbnail, price, title, quantity, addToCart, }) {
   return (
@@ -52,6 +53,13 @@ export function Cart () {
           ))}
         </ul>
         <h3>Total: ${getTotal()}</h3>
+
+        <div className="checkout-button">
+          <Link to="/checkout" className="link">
+            <h3>Checkout</h3>
+          </Link>
+        </div>
+
         <button onClick={clearCart}>
           <ClearCartIcon />
         </button>
