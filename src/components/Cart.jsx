@@ -1,53 +1,63 @@
-import './Cart.css'
+import "./Cart.css";
 
-import { useId } from 'react'
-import { CartIcon, ClearCartIcon } from './Icons.jsx'
-import { useCart } from '../hooks/useCart.js'
-import { Link } from 'react-router-dom'
+import { useId } from "react";
+import { CartIcon, ClearCartIcon } from "./Icons.jsx";
+import { useCart } from "../hooks/useCart.js";
+import { Link } from "react-router-dom";
 
-function CartItem ({ thumbnail, price, title, quantity, addToCart, }) {
+function CartItem({
+  thumbnail,
+  price,
+  title,
+  quantity,
+  addToCart,
+  removeOneFromCart,
+  removeFromCart,
+}) {
   return (
     <li>
-      <img
-        src={thumbnail}
-        alt={title}
-      />
+      <img src={thumbnail} alt={title} />
       <div>
         <strong>{title}</strong> - ${price}
       </div>
       <footer>
+        <button onClick={removeFromCart}>x</button>
         <small>
+          <button onClick={removeOneFromCart} disabled={quantity === 1}>
+            -
+          </button>
           Cantidad: {quantity}
         </small>
         <button onClick={addToCart}>+</button>
       </footer>
     </li>
-  )
+  );
 }
-export function Cart () {
-  const cartCheckboxId = useId()
-  const { cart, clearCart, addToCart } = useCart()
+export function Cart() {
+  const cartCheckboxId = useId();
+  const { cart, clearCart, addToCart, removeFromCart, removeOneFromCart } =
+    useCart();
   const getTotal = () => {
     return cart.reduce((total, product) => {
-      return total + product.price * product.quantity
-    }, 0)
-  }
-
-  
+      return total + product.price * product.quantity;
+    }, 0);
+  };
 
   return (
     <>
-      <label className='cart-button' htmlFor={cartCheckboxId}>
+      <label className="cart-button" htmlFor={cartCheckboxId}>
         <CartIcon />
       </label>
-      <input id={cartCheckboxId} type='checkbox' hidden />
+      <input id={cartCheckboxId} type="checkbox" hidden />
 
-      <aside className='cart'>
+      <aside className="cart">
         <ul>
-          {cart.map(product => (
+          {cart.map((product) => (
             <CartItem
               key={product.id}
               addToCart={() => addToCart(product)}
+              removeFromCart={() => removeFromCart(product)}
+              removeOneFromCart={() => removeOneFromCart(product)}
               {...product}
             />
           ))}
@@ -65,5 +75,5 @@ export function Cart () {
         </button>
       </aside>
     </>
-  )
+  );
 }

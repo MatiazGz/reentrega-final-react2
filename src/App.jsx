@@ -7,7 +7,7 @@ import { useFilters } from "./hooks/useFilters.js";
 import { Cart } from "./components/Cart.jsx";
 import { CartProvider } from "./context/cart.jsx";
 import { ProductDetail } from "./views/ProductView.jsx";
-import Checkout from "./views/Checkout.jsx"
+import Checkout from "./views/Checkout.jsx";
 
 function App() {
   const { filterProducts } = useFilters();
@@ -19,9 +19,11 @@ function App() {
       <Cart />
       <Routes>
         <Route path="/" element={<Products products={filteredProducts} />} />
-        <Route path="/product/:id"
-            element={<ProductDetail products={initialProducts} />}/>
-        <Route path="/checkout" element={<Checkout/>} />
+        <Route
+          path="/product/:id"
+          element={<ProductDetail products={initialProducts} />}
+        />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
     </CartProvider>
   );
